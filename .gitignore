@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Generated evaluation artifacts
+*.jsonl
+artifacts/
+results/
+logs/
+traces/
+
+# Local configuration and credential-file patterns
+.env
+.env.*
+*.key
+*.pem
+token.txt
+*_token.txt
+credentials.json
+
+.DS_Store
