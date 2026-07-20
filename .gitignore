@@ -2,9 +2,7 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 
-# Generated evaluation artifacts
-*.jsonl
-artifacts/
+# Generated local output
 results/
 logs/
 traces/
