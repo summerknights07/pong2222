@@ -1,0 +1,22 @@
+{
+  "run_tag": "robocasa-hyp-1784572634-7579",
+  "base_url": "https://rei-neuroadapt-api-uat.reilabs.org",
+  "created_at": "2026-07-20T18:37:14.774893+00:00",
+  "sample_count_per_condition": 12,
+  "checkpoints": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    8,
+    12
+  ],
+  "conditions": [
+    "no_domain_memory",
+    "domain_no_candidates",
+    "domain_with_candidates"
+  ],
+  "probe_mode": "feedback",
+  "note": "No API key is stored. Samples are API-level structured transitions derived from official RoboCasa atomic task semantics, not MuJoCo rollouts."
+}
